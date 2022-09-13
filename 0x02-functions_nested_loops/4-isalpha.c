@@ -1,13 +1,17 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * _isalpha - if c is a letter, lowercase or uppercase
- * @c: parameter
- * Return: 1 for success
+ * print_alphabet - a function that prints the alphabet, in lowercase
+ *
+ * Return: Always 0 (Succes)
  */
-int _isalpha(int c)
+void print_alphabet(void)
 {
-        if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
-            return (1);
-        else
-            return (0);
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		_putchar(n);
+	}
+	_putchar('\n');
 }
