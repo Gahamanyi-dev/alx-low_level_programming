@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - main of the program
  * Return: 0 for success
  */
 int main(void)
@@ -10,4 +10,3 @@ int main(void)
 
 	return (0);
 }
-Footer
