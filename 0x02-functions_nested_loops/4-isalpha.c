@@ -1,17 +1,13 @@
 #include "main.h"
-
 /**
- * print_alphabet - prints the alphabet, in lowercase
- *
- * Return: 0 for success
+ * _isalpha - checks for alphabetic character
+ * @c: parameter
+ * Return: 1 for success
  */
-void print_alphabet(void)
+int _isalpha(int c)
 {
-	int n;
-
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar(n);
-	}
-	_putchar('\n');
+	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
+		return (1);
+	else
+		return (0);
 }
