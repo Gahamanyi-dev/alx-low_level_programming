@@ -1,19 +1,18 @@
 #include "main.h"
 /**
- * main - print a text
- *
- * Return: Success
+ * main - this is the main of the program
+ * Return: 0 for success
  */
 int main(void)
 {
-        char *sh = "_putchar";
+	char *sh = "Holberton";
 
-        while (*sh)
-        {
-            _putchar(*sh);
-            sh++;
-        }
-        _putchar('\n');
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
-        return (0);
+	return (0);
 }
