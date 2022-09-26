@@ -2,11 +2,11 @@
 
 /**
  * _strpbrk - searches a string for any of a set of bytes.
- * @p: parameter one
+ * @s: parameter one
  * @accept: parameter two
  * Return: a pointer to the byte.
  */
-char *_strpbrk(char *p, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
